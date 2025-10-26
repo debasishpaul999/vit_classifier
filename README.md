@@ -1,8 +1,6 @@
 # Vision Transformer (ViT) for CIFAR-10 Classification
 
 
-<div align="center">
-
 ![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)
 ![TorchVision](https://img.shields.io/badge/TorchVision-0.15%2B-EE4C2C?logo=pytorch&logoColor=white)
@@ -17,8 +15,9 @@
 ![PyYAML](https://img.shields.io/badge/PyYAML-6.0%2B-FF0000?logo=yaml&logoColor=white)
 ![tqdm](https://img.shields.io/badge/tqdm-4.65%2B-00A1FF?logo=tqdm&logoColor=white)
 ![ipywidgets](https://img.shields.io/badge/ipywidgets-8.0%2B-FF6F00?logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-8B00FF?logo=anthropic&logoColor=white)
 
-</div>
 
 ---
 
