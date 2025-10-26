@@ -37,8 +37,8 @@ This project demonstrates:
 
 | Metric | Value |
 |--------|-------|
-| Test Accuracy | XX.XX% |
-| Top-5 Accuracy | XX.XX% |
+| Test Accuracy | 81.68% |
+| Top-5 Accuracy | 98.74% |
 | Parameters | 21.4M |
 | Training Time | 10 hours |
 
@@ -168,11 +168,15 @@ See `notebooks/visualizations.ipynb` for:
 
 ### Training Curves
 
-![Training Curves](results/plots/training_curves.png)
+![Training Curves](results/plots/final_training_curves.png)
 
 ### Confusion Matrix
 
 ![Confusion Matrix](results/plots/confusion_matrix.png)
+
+### Per Class Metrics
+
+![Per Class Metrics](results/plots/per_class_metrics.png)
 
 ## 🛠️ Key Features
 

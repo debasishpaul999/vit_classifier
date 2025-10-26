@@ -1,0 +1,63 @@
+augmentation:
+  color_jitter: false
+  normalize_mean:
+  - 0.485
+  - 0.456
+  - 0.406
+  normalize_std:
+  - 0.229
+  - 0.224
+  - 0.225
+  random_crop_scale:
+  - 0.8
+  - 1.0
+  random_flip: true
+  random_rotation: 7.2
+checkpoint:
+  mode: max
+  monitor: val_accuracy
+  save_best_only: true
+  save_dir: /content/results/checkpoints
+data:
+  batch_size: 256
+  data_dir: /content/data
+  dataset: cifar10
+  image_size: 72
+  num_classes: 10
+  num_workers: 4
+  val_split: 0.1
+logging:
+  log_dir: /content/results/logs
+  plot_dir: /content/results/plots
+  print_freq: 50
+  save_plots: true
+  tensorboard: true
+model:
+  dropout_rate: 0.1
+  mlp_dropout_rate: 0.5
+  mlp_head_units:
+  - 2048
+  - 1024
+  num_heads: 4
+  patch_size: 6
+  projection_dim: 64
+  transformer_layers: 8
+  transformer_units:
+  - 128
+  - 64
+optimizer:
+  momentum: 0.9
+  type: adamw
+scheduler:
+  gamma: 0.1
+  patience: 10
+  step_size: 30
+  type: cosine
+seed: 42
+training:
+  gradient_clip: 1.0
+  learning_rate: 0.001
+  mixed_precision: true
+  num_epochs: 250
+  warmup_epochs: 10
+  weight_decay: 0.0001
