@@ -178,7 +178,7 @@ if __name__ == "__main__":
     import yaml
     import matplotlib.pyplot as plt
     
-    with open('E:\PROJECT\Vit_Classifier_CIFAR10\config.yaml', 'r') as f:
+    with open('../config.yaml', 'r') as f:
         config = yaml.safe_load(f)
     
     train_loader, val_loader, test_loader = get_dataloaders(config)

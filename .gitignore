@@ -1,1 +1,30 @@
 cifar
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Data & Checkpoints (too large)
+data/
+results/checkpoints/*.pth
+!results/checkpoints/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorBoard
+results/logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

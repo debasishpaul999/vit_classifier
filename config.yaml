@@ -3,7 +3,7 @@
 # Data settings
 data:
   dataset: "cifar10"
-  data_dir: "E:/PROJECT/Vit_Classifier_CIFAR10/data"
+  data_dir: "E:/PROJECT/vit_classifier/data"
   num_classes: 10
   image_size: 72
   batch_size: 256
@@ -52,18 +52,18 @@ scheduler:
 
 # Checkpointing
 checkpoint:
-  save_dir: "E:/PROJECT/Vit_Classifier_CIFAR10/results/checkpoints"
+  save_dir: "E:/PROJECT/vit_classifier/results/checkpoints"
   save_best_only: true
   monitor: "val_accuracy"
   mode: "max"
   
 # Logging
 logging:
-  log_dir: "E:/PROJECT/Vit_Classifier_CIFAR10/results/logs"
+  log_dir: "E:/PROJECT/vit_classifier/results/logs"
   tensorboard: true
   print_freq: 50
   save_plots: true
-  plot_dir: "E:/PROJECT/Vit_Classifier_CIFAR10/results/plots"
+  plot_dir: "E:/PROJECT/vit_classifier/results/plots"
 
 # Reproducibility
 seed: 42

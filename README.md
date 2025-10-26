@@ -1,5 +1,27 @@
 # Vision Transformer (ViT) for CIFAR-10 Classification
 
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?logo=pytorch&logoColor=white)
+![TorchVision](https://img.shields.io/badge/TorchVision-0.15%2B-EE4C2C?logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557c?logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-377eb8?logo=seaborn&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3%2B-F7931E?logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas&logoColor=white)
+![JupyterLab](https://img.shields.io/badge/JupyterLab-4.0%2B-F37626?logo=jupyter&logoColor=white)
+![TensorBoard](https://img.shields.io/badge/TensorBoard-2.13%2B-FF6F00?logo=tensorflow&logoColor=white)
+![Pillow](https://img.shields.io/badge/Pillow-9.5%2B-4B8BBE?logo=pillow&logoColor=white)
+![PyYAML](https://img.shields.io/badge/PyYAML-6.0%2B-FF0000?logo=yaml&logoColor=white)
+![tqdm](https://img.shields.io/badge/tqdm-4.65%2B-00A1FF?logo=tqdm&logoColor=white)
+![ipywidgets](https://img.shields.io/badge/ipywidgets-8.0%2B-FF6F00?logo=jupyter&logoColor=white)
+
+</div>
+
+---
+
 A PyTorch implementation of Vision Transformer (ViT) for image classification on the CIFAR-10 dataset. This project implements the architecture from scratch, including patch extraction, positional encoding, multi-head self-attention, and transformer encoder blocks.
 
 ![Vision Transformer Architecture](https://raw.githubusercontent.com/google-research/vision_transformer/main/vit_figure.png)
@@ -18,8 +40,8 @@ This project demonstrates:
 |--------|-------|
 | Test Accuracy | XX.XX% |
 | Top-5 Accuracy | XX.XX% |
-| Parameters | X.XM |
-| Training Time | XX hours |
+| Parameters | 21.4M |
+| Training Time | 10 hours |
 
 ## 🏗️ Architecture
 
@@ -125,7 +147,7 @@ Training automatically generates:
 - `predictions.png` - Sample predictions
 - `classification_report.txt` - Detailed metrics
 
-## 🔬 Experiments & Ablations
+<!-- ## 🔬 Experiments & Ablations
 
 Experiments with different configurations:
 
@@ -134,7 +156,7 @@ Experiments with different configurations:
 | Base   | 8      | 4     | 64  | XX.XX%   |
 | Small  | 6      | 4     | 64  | XX.XX%   |
 | Deep   | 12     | 4     | 64  | XX.XX%   |
-| Wide   | 8      | 8     | 128 | XX.XX%   |
+| Wide   | 8      | 8     | 128 | XX.XX%   | -->
 
 ## 🎨 Visualizations
 
@@ -179,10 +201,10 @@ Classes: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
 ```python
 # In config.yaml
 model:
-  patch_size: 8              # Try different patch sizes
-  projection_dim: 128        # Increase model capacity
-  num_heads: 8               # More attention heads
-  transformer_layers: 12     # Deeper network
+  patch_size: 8              
+  projection_dim: 128        
+  num_heads: 8               
+  transformer_layers: 12     
 ```
 
 ### Custom Augmentation
@@ -248,9 +270,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourhandle](https://twitter.com/yourhandle) - your.email@example.com
+Debasish Paul - [LinkedIn](www.linkedin.com/in/debasishpaul999) - www.debasish999@gmail.com.com
 
-Project Link: [https://github.com/yourusername/vit-cifar10-pytorch](https://github.com/yourusername/vit-cifar10-pytorch)
+Project Link: [https://github.com/debasishpaul999/vit_classifier.git](https://github.com/debasishpaul999/vit_classifier.git)
 
 ---
 
